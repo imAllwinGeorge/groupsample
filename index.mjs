@@ -1,10 +1,11 @@
 
 
 import express from 'express';
-import { signUP } from './signup.mjs';
+import { signUPN } from './signup.mjs';
+
 const app = express()
 
-signUP();
+signUPN();
 app.listen(3000,()=>{
     console.log(`http://localhost:3000`)
 });
